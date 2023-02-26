@@ -6,7 +6,7 @@ var swiper = new Swiper(".popular-content", {
     spaceBetween: 10,
     centeredSlides: true,
     autoplay: {
-        delay: 1200,
+        delay: 1500,
         disableOnInteraction: false
     },
     pagination: {

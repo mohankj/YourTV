@@ -54,13 +54,13 @@ let video = document.querySelector(".video-container");
 let myvideo = document.querySelector("#myvideo")
 let closebtn = document.querySelector(".close-video");
 
-playButton.onclick = () =>{
+playButton.onclick = () => {
     video.classList.add("show-video");
     // Autoplay when click on Button
     myvideo.play();
 
 };
-closebtn.onclick = () =>{
+closebtn.onclick = () => {
     video.classList.remove("show-video");
     // Pause when click on Close Button
     myvideo.pause();

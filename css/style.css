@@ -766,13 +766,16 @@ header {
         justify-content: space-around;
         padding: 8px 0;
     }
-    .nav-link .bx{
+
+    .nav-link .bx {
         font-size: 1.4rem;
     }
-    .about-movie p{
+
+    .about-movie p {
         text-align: justify;
     }
-    .download-links{
+
+    .download-links {
         grid-template-columns: 1fr;
     }
 
